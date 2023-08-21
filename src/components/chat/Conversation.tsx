@@ -10,7 +10,7 @@ const Conversation = () => {
             src={Avatar} alt="username" />
           <span className="block ml-2 font-bold text-gray-600">Alice</span>
         </div>
-        <div className="relative w-full p-6 overflow-y-auto h-[25rem]">
+        <div className="relative w-full p-6 overflow-y-auto h-[40rem]">
           <ul className="space-y-2">
             {/* other end messages */}
             <li className="flex justify-start">
