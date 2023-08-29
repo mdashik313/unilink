@@ -12,7 +12,7 @@ export default function ChatList() {
     return(
         <div className="border-r border-gray-300 lg:col-span-1">
 
-            <ul className="overflow-auto h-[32rem]">
+            <ul className="overflow-auto h-screen">
                 <h2 className="my-2 mb-2 ml-2 text-lg text-gray-600">Chats</h2>
                 <li>
                     {/* people/group list */}

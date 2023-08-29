@@ -7,8 +7,8 @@ interface Props {
 
 export default function Layout({ children }: Props) {
 	return (
-		<RequireAuth>
-			<ReadyNavBar />
+		<>
+			
 			{children}
-		</RequireAuth>);
+		</>);
 }
